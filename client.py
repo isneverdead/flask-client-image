@@ -9,7 +9,7 @@ project_root = os.path.dirname(__file__)
 template_path = os.path.join(project_root, './')
 
 app = Flask(__name__)
-UPLOAD_FOLDER = '/home/awanpc2/'
+UPLOAD_FOLDER = '/home/frzakbar2/'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 addr = 'http://frzakbar.pythonanywhere.com'
 test_url = addr + '/api/test'
